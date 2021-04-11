@@ -38,17 +38,18 @@ If you find our work interesting or use our work, please cite using the followin
 
 ```
 @article{STYLIANOU2021103767,
-title = {TransforMED: End-to-End Transformers for Evidence-Based Medicine and Argument Mining in medical literature},
+title = {TransforMED: End-to-Εnd Transformers for Evidence-Based Medicine and Argument Mining in medical literature},
 journal = {Journal of Biomedical Informatics},
+volume = {117},
 pages = {103767},
 year = {2021},
 issn = {1532-0464},
 doi = {https://doi.org/10.1016/j.jbi.2021.103767},
 url = {https://www.sciencedirect.com/science/article/pii/S1532046421000964},
 author = {Nikolaos Stylianou and Ioannis Vlahavas},
-keywords = {Deep Learning, Natural Language Processing, Evidence Based Medicine, Argument Mining},
+keywords = {Deep learning, Natural language processing, Evidence based medicine, Argument mining},
 abstract = {Argument Mining (AM) refers to the task of automatically identifying arguments in a text and finding their relations. In medical literature this is done by identifying Claims and Premises and classifying their relations as either Support or Attack. Evidence-Based Medicine (EBM) refers to the task of identifying all related evidence in medical literature to allow medical practitioners to make informed choices and form accurate treatment plans. This is achieved through the automatic identification of Population, Intervention, Comparator and Outcome entities (PICO) in the literature to limit the collection to only the most relevant documents. In this work, we combine EBM with AM in medical literature to increase the performance of the individual models and create high quality argument graphs, annotated with PICO entities. To that end, we introduce a state-of-the-art EBM model, used to predict the PICO entities and two novel Argument Identification and Argument Relation classification models that utilize the PICO entities to enhance their performance. Our final system works in a pipeline and is able to identify all PICO entities in a medical publication, the arguments presented in them and their relations.}
 }
 ```
 >Stylianou, Nikolaos, and Ioannis Vlahavas. 
-"[TransforMED: End-to-End Transformers for Evidence-Based Medicine and Argument Mining in medical literature](https://www.sciencedirect.com/science/article/pii/S1532046421000964)" Journal of Biomedical Informatics (2021): 103767.
+"[TransforMED: End-to-End Transformers for Evidence-Based Medicine and Argument Mining in medical literature](https://www.sciencedirect.com/science/article/pii/S1532046421000964)" Journal of Biomedical Informatics 117 (2021): 103767.
