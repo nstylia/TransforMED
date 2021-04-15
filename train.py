@@ -749,15 +749,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# --model_type bert-seqtag --model_name_or_path allenai/scibert_scivocab_uncased --output_dir output/seqtag128_4/ --task_name seqtag --do_train --do_eval --do_lower_case --data_dir data/neoplasm/ --max_seq_length 128 --overwrite_output_dir --per_gpu_train_batch_size 16 --learning_rate 1e-5 --num_train_epochs 5.0 --save_step 1000 --overwrite_cache
-# --model_type bert --model_name_or_path allenai/scibert_scivocab_uncased --output_dir output/relclass_base/ --task_name relclass --do_train --do_eval --do_lower_case --data_dir data/neoplasm/ --max_seq_length 128 --overwrite_output_dir --per_gpu_train_batch_size 32 --learning_rate 2e-5 --num_train_epochs 3.0 --save_step 1000 --overwrite_cache
-# --model_type bert-ex --model_name_or_path allenai/scibert_scivocab_uncased --output_dir output/relclass_base_pico/ --task_name relclass --do_train --do_eval --do_lower_case --data_dir data/neoplasm/ --max_seq_length 128 --overwrite_output_dir --per_gpu_train_batch_size 32 --learning_rate 2e-5 --num_train_epochs 1.0 --save_step 1000 --overwrite_cache
-# data_processors line 307 and 309 removed - have to do with pico
-#main line 183 and 309 removed - have to do with pico
-# --model_type bert-ex --model_name_or_path allenai/scibert_scivocab_uncased --output_dir output/relclass_baseline/ --task_name relclass --do_train --do_eval --do_lower_case --data_dir data/neoplasm/ --max_seq_length 128 --overwrite_output_dir --per_gpu_train_batch_size 32 --learning_rate 2e-5 --num_train_epochs 3.0 --save_step 1000 --overwrite_cache
-# --model_type bert-ex --model_name_or_path monologg/biobert_v1.1_pubmed --output_dir output/relclass_baseline/ --task_name relclass --do_train --do_eval --do_lower_case --data_dir data/neoplasm/ --max_seq_length 128 --overwrite_output_dir --per_gpu_train_batch_size 32 --learning_rate 2e-5 --num_train_epochs 3.0 --save_step 1000 --overwrite_cache
-
-#--model_type bert-ex --model_name_or_path monologg/biobert_v1.1_pubmed --output_dir output/relclass_baseline/ --task_name relclass --do_train --do_eval --do_lower_case --data_dir data/neoplasm/ --max_seq_length 128 --overwrite_output_dir --per_gpu_train_batch_size 32 --learning_rate 2e-5 --num_train_epochs 3.0 --save_step 1000 --overwrite_cache
-
-# --model_type bert-seqtag --model_name_or_path allenai/scibert_scivocab_uncased --output_dir output/seqtag_abl/ --task_name seqtag --do_train --do_eval --do_lower_case --data_dir data/neoplasm/ --max_seq_length 128 --overwrite_output_dir --per_gpu_train_batch_size 20 --learning_rate 2e-5 --num_train_epochs 3.0 --save_step 1000 --overwrite_cache
